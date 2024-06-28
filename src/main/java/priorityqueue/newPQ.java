@@ -2,11 +2,20 @@ package priorityqueue;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.ConsoleHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+
 
 public class newPQ <T>{
 
     public List<List<T>>values;
     int size;
+
+    private static final Logger logger = Logger.getLogger(newPQ.class.getName());
+
+
 
     public newPQ(){
         this.values = new ArrayList<>(10); //want 10 "spots" b/c 0-9 priorities
@@ -14,16 +23,22 @@ public class newPQ <T>{
         for(int i = 0; i < 10; i++){
             values.add((List<T>) new ArrayList<>()); //add empty array list to each "spot"
         }
+        ConsoleHandler handler = new ConsoleHandler();
+        handler.setLevel(Level.INFO); 
+        logger.addHandler(handler);
+        logger.setLevel(Level.INFO);
+        
     }
 
     public void offer(T data, int priority){
         if(priority < 0 || priority > 9){
-           return;
+            logger.info("Invalid priority");
+            return;
         }
 
         values.get(priority).add(data);
         size++;
-        
+        logger.info("Added element with priority " + priority + ": " + data);
     }
 
 
@@ -74,29 +89,7 @@ public class newPQ <T>{
     
 
     public static void main(String[] args) {
-        // System.out.println("Inserting Data");
-        // newPQ pq = new newPQ<>();
-
-        // pq.offer("a", 2);
-        // pq.offer("c", 3);
-        // pq.offer("b", 1);
-        // pq.offer("d", 7);
-        // pq.offer("g", 1);
-        // pq.offer("e", 6);
-        // pq.offer("f", 6);
-       
-        // pq.disp();
         
-        // System.out.println("Take");
-      
-        // System.out.println(pq.take()); //d
-        // System.out.println(pq.take()); //e
-        // System.out.println(pq.take()); //f
-        // System.out.println(pq.take()); //c
-        // System.out.println(pq.take()); //a
-        // System.out.println(pq.take()); //b
-        // System.out.println(pq.take()); //g
-      
              
     }
 
