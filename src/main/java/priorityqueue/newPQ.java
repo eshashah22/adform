@@ -43,13 +43,22 @@ public class newPQ <T>{
     }
 
     public boolean peek(int timeout){
-        try {
-            Thread.sleep(timeout);
-        } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+        while(System.currentTimeMillis() < System.currentTimeMillis() + timeout)
+        {
+            if(peek()){
+                return true;
+            }
+            try {
+                Thread.sleep(timeout);
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+                
+            }
         }
         return peek();
+
+        
     }
 
     // public void disp(){

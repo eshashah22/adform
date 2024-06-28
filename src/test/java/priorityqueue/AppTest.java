@@ -13,8 +13,9 @@ public class AppTest
     {
         newPQ pq = new newPQ<>();
        
-
+      
         pq.offer("a", 2);
+        assertEquals(true, pq.peek(500));
         pq.offer("c", 3);
         pq.offer("b", 1);
         pq.offer("d", 7);
@@ -22,14 +23,6 @@ public class AppTest
         pq.offer("e", 6);
         pq.offer("f", 6);
         assertEquals(true, pq.peek());
-
-       // System.out.println(pq.take()); //d
-        // System.out.println(pq.take()); //e
-        // System.out.println(pq.take()); //f
-        // System.out.println(pq.take()); //c
-        // System.out.println(pq.take()); //a
-        // System.out.println(pq.take()); //b
-        // System.out.println(pq.take()); //g
 
         assertEquals("d", pq.take());
         assertEquals("e", pq.take());
@@ -40,6 +33,10 @@ public class AppTest
         assertEquals("g", pq.take());
         assertEquals(0, pq.size);
         assertEquals(false, pq.peek());
+       
+
+
+       
     }
 }
 
