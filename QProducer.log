@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T16:39:30.841828Z</date>
+  <millis>1720456770841</millis>
+  <nanos>828000</nanos>
+  <sequence>4</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>21</thread>
+  <message>Produced 95 with prior 0</message>
+</record>
+<record>
+  <date>2024-07-08T16:39:30.841984Z</date>
+  <millis>1720456770841</millis>
+  <nanos>984000</nanos>
+  <sequence>5</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>22</thread>
+  <message>Produced 27 with prior 7</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T17:40:52.880264Z</date>
+  <millis>1720460452880</millis>
+  <nanos>264000</nanos>
+  <sequence>4</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>22</thread>
+  <message>Produced 7 with prior 8</message>
+</record>
+<record>
+  <date>2024-07-08T17:40:52.880409Z</date>
+  <millis>1720460452880</millis>
+  <nanos>409000</nanos>
+  <sequence>5</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>21</thread>
+  <message>Produced 54 with prior 6</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:10:43.430354Z</date>
+  <millis>1720462243430</millis>
+  <nanos>354000</nanos>
+  <sequence>4</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>22</thread>
+  <message>Produced 45 with prior 3</message>
+</record>
+<record>
+  <date>2024-07-08T18:10:43.430529Z</date>
+  <millis>1720462243430</millis>
+  <nanos>529000</nanos>
+  <sequence>5</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>21</thread>
+  <message>Produced 42 with prior 0</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:11:29.671709Z</date>
+  <millis>1720462289671</millis>
+  <nanos>709000</nanos>
+  <sequence>4</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>22</thread>
+  <message>Produced 0 with prior 7</message>
+</record>
+<record>
+  <date>2024-07-08T18:11:29.671837Z</date>
+  <millis>1720462289671</millis>
+  <nanos>837000</nanos>
+  <sequence>5</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>21</thread>
+  <message>Produced 21 with prior 8</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:15:21.637422Z</date>
+  <millis>1720462521637</millis>
+  <nanos>422000</nanos>
+  <sequence>4</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>21</thread>
+  <message>Produced 52 with prior 5</message>
+</record>
+<record>
+  <date>2024-07-08T18:15:21.637704Z</date>
+  <millis>1720462521637</millis>
+  <nanos>704000</nanos>
+  <sequence>5</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>22</thread>
+  <message>Produced 52 with prior 7</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:15:45.770598Z</date>
+  <millis>1720462545770</millis>
+  <nanos>598000</nanos>
+  <sequence>4</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>22</thread>
+  <message>Produced 40 with prior 2</message>
+</record>
+<record>
+  <date>2024-07-08T18:15:45.770736Z</date>
+  <millis>1720462545770</millis>
+  <nanos>736000</nanos>
+  <sequence>5</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>21</thread>
+  <message>Produced 90 with prior 2</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:15:50.223410Z</date>
+  <millis>1720462550223</millis>
+  <nanos>410000</nanos>
+  <sequence>4</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>21</thread>
+  <message>Produced 26 with prior 1</message>
+</record>
+<record>
+  <date>2024-07-08T18:15:50.223564Z</date>
+  <millis>1720462550223</millis>
+  <nanos>564000</nanos>
+  <sequence>5</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>22</thread>
+  <message>Produced 60 with prior 1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:16:18.217943Z</date>
+  <millis>1720462578217</millis>
+  <nanos>943000</nanos>
+  <sequence>4</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>22</thread>
+  <message>Produced 43 with prior 2</message>
+</record>
+<record>
+  <date>2024-07-08T18:16:18.218079Z</date>
+  <millis>1720462578218</millis>
+  <nanos>79000</nanos>
+  <sequence>5</sequence>
+  <logger>priorityqueue.QProducer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QProducer</class>
+  <method>produce</method>
+  <thread>21</thread>
+  <message>Produced 88 with prior 9</message>
+</record>
+</log>

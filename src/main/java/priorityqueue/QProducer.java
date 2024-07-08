@@ -1,41 +1,70 @@
 package priorityqueue;
 
+import java.io.IOException;
+import java.util.Random;
 import java.util.logging.ConsoleHandler;
+import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class QProducer<T> implements IQProducer<T>, Runnable {
 
     private newPQ<T>q;
-    private T ele;
-    private int priority;
-    private static final Logger logger = Logger.getLogger(QProducer.class.getName());
+    private static final Logger logger = Logger.getLogger(QProducer.class.getName()); //find log file
+    Random rand = new Random();
 
-    public QProducer(newPQ<T>q, T ele, int priority){
+
+    public QProducer(newPQ<T>q){ 
         this.q = q;
-        this.ele = ele;
-        this.priority = priority;
-        ConsoleHandler handler = new ConsoleHandler();
-        handler.setLevel(Level.INFO); 
-        logger.addHandler(handler);
-        logger.setLevel(Level.INFO);
-    }
-    @Override
-    public void run() {
+
         try {
-            produce(ele);
-            Thread.sleep(1000);
+            ConsoleHandler consoleHandler = new ConsoleHandler();
+            consoleHandler.setLevel(Level.INFO);
+
+            FileHandler fileHandler = new FileHandler("QProducer.log", true); 
+            fileHandler.setLevel(Level.INFO);
+
+            logger.addHandler(consoleHandler);
+            logger.addHandler(fileHandler);
+            logger.setLevel(Level.INFO);
+            logger.setUseParentHandlers(false); 
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void run() { 
+        try {
+            T data = genData();
+            produce(data);
+            Thread.sleep(1000); 
         } catch (InterruptedException e) {
             logger.info("Thread interrupted");
+            Thread.currentThread().interrupt();
         }
         
     }
 
+
     @Override
     public void produce(T t) {
-        q.offer(t, priority);
-        logger.info("Produced " + t);
+        int priority = rand.nextInt(10);
+        q.offer(t, priority); 
+        logger.info("Produced " + t + " with prior " + priority);
         
+    }
+
+    
+    private T genData(){
+        Integer randData = rand.nextInt(100);
+        return (T) randData;
+        
+    }
+
+    @Override
+    public String toString() {
+        return "QProducer [q=" + q + "]";
     }
     
 }

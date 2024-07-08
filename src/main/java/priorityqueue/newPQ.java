@@ -38,7 +38,7 @@ public class newPQ <T>{
 
         values.get(priority).add(data);
         size++;
-        logger.info("Added element with priority " + priority + ": " + data);
+        logger.info("Added element, Data: " + data + " , prior: " + priority);
     }
 
 

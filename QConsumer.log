@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T17:40:52.841711Z</date>
+  <millis>1720460452841</millis>
+  <nanos>711000</nanos>
+  <sequence>2</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>23</thread>
+  <message>Consumed 7</message>
+</record>
+<record>
+  <date>2024-07-08T17:40:52.841712Z</date>
+  <millis>1720460452841</millis>
+  <nanos>712000</nanos>
+  <sequence>1</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>24</thread>
+  <message>Consumed 54</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:10:43.389707Z</date>
+  <millis>1720462243389</millis>
+  <nanos>707000</nanos>
+  <sequence>3</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>23</thread>
+  <message>Consumed 42</message>
+</record>
+<record>
+  <date>2024-07-08T18:10:43.389703Z</date>
+  <millis>1720462243389</millis>
+  <nanos>703000</nanos>
+  <sequence>2</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>24</thread>
+  <message>Consumed 45</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:11:29.634857Z</date>
+  <millis>1720462289634</millis>
+  <nanos>857000</nanos>
+  <sequence>2</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>24</thread>
+  <message>Consumed 0</message>
+</record>
+<record>
+  <date>2024-07-08T18:11:29.634850Z</date>
+  <millis>1720462289634</millis>
+  <nanos>850000</nanos>
+  <sequence>1</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>23</thread>
+  <message>Consumed 21</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:15:21.598335Z</date>
+  <millis>1720462521598</millis>
+  <nanos>335000</nanos>
+  <sequence>1</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>23</thread>
+  <message>Consumed 52</message>
+</record>
+<record>
+  <date>2024-07-08T18:15:21.598355Z</date>
+  <millis>1720462521598</millis>
+  <nanos>355000</nanos>
+  <sequence>2</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>24</thread>
+  <message>Consumed 52</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:15:45.731433Z</date>
+  <millis>1720462545731</millis>
+  <nanos>433000</nanos>
+  <sequence>0</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>24</thread>
+  <message>Consumed 40</message>
+</record>
+<record>
+  <date>2024-07-08T18:15:45.731428Z</date>
+  <millis>1720462545731</millis>
+  <nanos>428000</nanos>
+  <sequence>3</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>23</thread>
+  <message>Consumed 90</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:15:50.184550Z</date>
+  <millis>1720462550184</millis>
+  <nanos>550000</nanos>
+  <sequence>2</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>24</thread>
+  <message>Consumed null</message>
+</record>
+<record>
+  <date>2024-07-08T18:15:50.184557Z</date>
+  <millis>1720462550184</millis>
+  <nanos>557000</nanos>
+  <sequence>0</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>23</thread>
+  <message>Consumed 60</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-08T18:16:18.175864Z</date>
+  <millis>1720462578175</millis>
+  <nanos>864000</nanos>
+  <sequence>2</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>23</thread>
+  <message>Consumed 88</message>
+</record>
+<record>
+  <date>2024-07-08T18:16:18.175862Z</date>
+  <millis>1720462578175</millis>
+  <nanos>862000</nanos>
+  <sequence>3</sequence>
+  <logger>priorityqueue.QConsumer</logger>
+  <level>INFO</level>
+  <class>priorityqueue.QConsumer</class>
+  <method>consume</method>
+  <thread>24</thread>
+  <message>Consumed 43</message>
+</record>
+</log>
